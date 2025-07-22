@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import AcademyDashboard from './pages/AcademyDashboard';
-import TeacherDashboard from './pages/TeacherDashboard';
-import StudentDashboard from './pages/StudentDashboard';
-import { AuthProvider } from './context/AuthContext';
-import { ThemeProvider } from './context/ThemeContext';
-import ProtectedRoute from './components/ProtectedRoute';
+import LandingPage from './src/pages/LandingPage';
+import Login from './src/pages/Login';
+import Register from './src/pages/Register';
+import AcademyDashboard from './src/pages/AcademyDashboard';
+import TeacherDashboard from './src/pages/TeacherDashboard';
+import StudentDashboard from './src/pages/StudentDashboard';
+import { AuthProvider } from './src/context/AuthContext';
+import { ThemeProvider } from './src/context/ThemeContext';
+import ProtectedRoute from './src/components/ProtectedRoute';
 
 function App() {
   return (
